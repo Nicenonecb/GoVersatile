@@ -32,7 +32,7 @@ func printDirectoryStructure(root string, printFunc func(string)) error {
 }
 
 func main() {
-	root := "/Users/justin/Desktop/GoVersatile" // 你可以将这个值替换为你想要遍历的目录
+	root := "/" // 你可以将这个值替换为你想要遍历的目录
 
 	err := printDirectoryStructure(root, func(s string) {
 		fmt.Println(s)
