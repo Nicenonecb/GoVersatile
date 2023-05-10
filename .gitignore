@@ -1,0 +1,37 @@
+# 忽略Go的构建输出
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# 忽略macOS的.DS_Store文件
+.DS_Store
+
+# 忽略GoLand配置文件
+.idea/
+
+# 忽略Go的依赖包文件
+vendor/
+
+# 忽略Go的编译缓存
+*.o
+*.a
+*.cgo
+
+# 忽略Go的运行时临时文件
+tmp/
+
+# 忽略Node.js的依赖包文件
+node_modules/
+
+# 忽略Python的依赖包文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略日志文件
+*.log
