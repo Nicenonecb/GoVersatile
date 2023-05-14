@@ -17,10 +17,10 @@ GoVersatile  是一个用于学习 Go 语言并应用于多个场景的仓库，
 ## 技术栈
 
 - 编程语言：Go
-- Web框架：Echo、Gin、Revel 等
-- 数据库：MySQL、PostgreSQL、MongoDB 等
-- ORM库：GORM、sqlx 等
-- ... （请根据实际项目技术栈进行补充）
+- Web框架：Gin
+- 数据库：PostgreSQL
+- ORM库：GORM
+- ... （其他后续补充）
 
 
 ## 代码提交格式：Type(scope):subjects
@@ -43,7 +43,7 @@ GoVersatile  是一个用于学习 Go 语言并应用于多个场景的仓库，
 ### 环境要求
 
 - Go 1.x
-- MySQL 或 PostgreSQL 或 MongoDB
+- PostgreSQL 
 - 其他相关依赖库
 
 ### 安装与运行
